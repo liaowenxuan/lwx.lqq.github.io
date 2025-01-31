@@ -877,7 +877,7 @@
         .humanstar {
             width: 300px;
             height: 120px;
-            background-color: #f7eff1;
+            background-color: #ffffffcc;
             float: left;
             border-radius: 20px;
             margin: 20px 20px;
@@ -905,6 +905,123 @@
         .humanstar-day {
             font-size: 12px;
             font-weight: 200;
+        }
+    </style>
+    <style id="9">
+        .footer {
+            padding: 40px 0;
+        }
+
+        /* 左侧 */
+
+        .footer-left {
+            width: 830px;
+            height: 80px;
+            /* background-color: #666; */
+            float: left;
+            border-bottom: #666 solid 1px;
+            border-top: #666 solid 1px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .join {
+            width: 300px;
+            height: 80px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .joinus-text-block {
+            float: left;
+            height: 48px;
+            margin: 16px 20px;
+        }
+
+        .joinus-text {
+            font-size: 22px;
+        }
+
+        .joinus-subtext {
+            font-size: 14px;
+        }
+
+        #sp-line {
+            float: left;
+            margin: 29.5px 7px;
+        }
+
+        .joinus-way {
+            float: left;
+        }
+
+        .joinus-way span {
+            float: left;
+        }
+
+        #j1 {
+            color: var(--theme-color);
+            display: block;
+            width: 100px;
+            height: 28px;
+            border: #000000 solid 1px;
+            border-radius: 40px;
+            background-color: white;
+            text-align: center;
+            line-height: 28px;
+            font-size: 14px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 25px;
+        }
+
+        #j1 a {
+            text-decoration: none;
+            color: #000000;
+
+        }
+
+        /* 右侧 */
+
+        .footer-right {
+            width: 830px;
+            height: 80px;
+            float: left;
+            position: relative;
+            border-bottom: #666 solid 1px;
+            border-top: #666 solid 1px;
+            overflow: hidden;
+        }
+
+        .footer-logo {
+            height: 80px;
+            /* background-color: #333; */
+            position: absolute;
+            top: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .footer-logo img {
+            height: 70px;
+        }
+
+        /* 版权 */
+        .write {
+            margin-top: 30px;
+        }
+
+        .write>p {
+            text-align: center;
+            width: 1200px;
+            margin: 2.5px auto;
+            font-size: 12px;
+            font-weight: 100;
+        }
+
+        .write>p:nth-child(1) {
+            margin-top: 0;
         }
     </style>
 </head>
@@ -1524,6 +1641,49 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- 结尾部分 -->
+    <div class="footer">
+        <div class="w" style="overflow: hidden;">
+            <!-- 左侧 -->
+            <div class="footer-left">
+                <!-- 加入我们 -->
+                <div class="join">
+                    <!-- 左侧文本 -->
+                    <div class="joinus-text-block">
+                        <p class="joinus-text">加入我们</p>
+                        <p class="joinus-subtext">Join us</p>
+                    </div>
+                    <!-- 分割线 -->
+                    <span id="sp-line">|</span>
+                    <!-- 右侧方式 -->
+                    <div class="joinus-way">
+                        <span id="j1">
+                            <a target="_blank"
+                                href="https://qm.qq.com/cgi-bin/qm/qr?k=QAMk6gxdaSa0qtyix2sFpuRLVxteO-xu&jump_from=webapi&authKey=PXfUx94FrZ9lAh7Ec54YKSY10stDnldYz8pp/RdBxx/emN3cWKv/OOgt9q4rBDMX">加入群聊</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- 右侧 -->
+            <div class="footer-right">
+                <div class="footer-logo">
+                    <img src="images/logo/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="w">
+            <!-- 版权 -->
+            <div class="write">
+                <p>本网站的版权归Date_19C所有。</p>
+                <p class="english">The copyright of this website is owned by Date_19C.</p>
+                <p>本网页由かえりみちの微風制作，由Ryobunoki.运营和发表；未经允许，禁止一切非授权行为的转载、盗用。</p>
+                <p class="english">This web page is produced by かえりみちの微風 , operated and published by Ryobunoki. ;
+                    Without
+                    permission, all
+                    unauthorized acts of reproduction and appropriation are prohibited.</p>
             </div>
         </div>
     </div>
